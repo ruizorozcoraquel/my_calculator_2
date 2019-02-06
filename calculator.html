@@ -13,6 +13,11 @@ function menosuno() {
   var num = document.getElementById("n1");
   num.value =1/num.value;
 }
+function elevacuatro() {
+  var num = document.getElementById("n1");
+  num.value = Math.pow(num.value, 4);
+
+}
 </script>
 </head>
 <body>
@@ -23,6 +28,7 @@ function menosuno() {
     <button onclick="cube()"> x^3 </button>
     <button onclick="cuadrado()"> x^2 </button>
     <button onclick="menosuno()"> 1/x </button>
+    <button onclick="elevacuatro()"> x^4 </button>
   </p>
 </body>
 </html>
